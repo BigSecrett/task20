@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var emp = new Object()
+
+        emp.name = "zaved shaik",
+        emp.id = 1,
+        emp.job = "prefection artist",
+        emp.sal = 100000
+        emp.ta = emp.sal*(8/100)
+        emp.pf = emp.sal*(7/100)
+        emp.lic = emp.sal*(6/100)
+        emp.net =  parseInt(emp.sal)-parseInt(emp.ta)-parseInt(emp.pf)-parseInt(emp.lic)
+        
+
+        console.log("Emplooye details")
+        console.log([emp.name,emp.id,emp.job,emp.sal,emp.net])
+        console.log("this is the payroll of the emplooye");
+
+
+    </script>
+</body>
+</html>
